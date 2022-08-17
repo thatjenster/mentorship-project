@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Login from '../../components/Login'
 import { 
     _LandingPage, 
     _Container,
@@ -14,7 +15,7 @@ const HomePage = () => {
         <_LandingPage>
             <_Container>
                 <_Info>
-                    <h1>Looking For Inspiration</h1>
+                    <h1>Looking For A Mentor?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quidem iste, Repellendus odit nihil</p>
                     <button>Button name</button>
                 </_Info>
@@ -23,6 +24,7 @@ const HomePage = () => {
                 </_ImageContainer>
                 <_Clearfix></_Clearfix>
             </_Container>
+            <Login/>
         </_LandingPage>
     )
 }

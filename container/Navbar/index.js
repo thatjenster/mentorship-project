@@ -13,9 +13,7 @@ const Navbar = () => {
                 <_NavLink>
                     <li>Home</li>
                     <li>About Us</li>
-                    <li>Work</li>
-                    <li>Info</li>
-                    <li>Get Started</li>
+                    <li>Login</li>
                 </_NavLink>
             </_HeaderArea>
         </_Nav>

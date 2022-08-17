@@ -1,4 +1,4 @@
-const PopUp = () => {
+const Signup = () => {
     return (
         <div>
             
@@ -6,4 +6,4 @@ const PopUp = () => {
     )
 }
  
-export default PopUp
+export default Signup
